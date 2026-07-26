@@ -5,7 +5,7 @@ public class Main {
     }
     public static int findBiggestNumber(int[] array) {
         int max = array[0];
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length /* dieu kien dung la so phan tu cua cai array */; i++) {
             if (max < array[i]) {
                 max = array[i]; //i la so lay vi tri va gia tri that trong array khac
         
