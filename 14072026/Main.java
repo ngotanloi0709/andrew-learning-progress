@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        // int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        // int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 1`0};
         // Calculator calc = new Calculator();
         
         // System.out.println(calc.isEvenNumber(5));
