@@ -1,23 +1,23 @@
-public class checkPrime {
+public class CheckPrime {
     public static void main(String[] args) {
-        int a = 11;
+        int a = 0;
         boolean prime = true;
 
         if(a<1) {
             prime = false;
         }
         else{
-            for (int i == 2;;i++) {
-                if(a % = 0) {
+            for (int i = 2;i < a;i++) {
+                if(a % i == 0) {
                     prime = false;
                 }
             }
         }
         if(prime) {
-            System.out.println(a + "is prime");
+            System.out.println(a + " is prime");
         }
         else {
-            System.out.println(a + "not prime");
+            System.out.println(a + " not prime");
         }
     }
 }
