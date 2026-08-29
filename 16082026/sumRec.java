@@ -5,6 +5,7 @@ public class sumRec {
         }
         return n + sumRec(n - 1);
     }
+    
     public static void main(String[] args) {
         int n = 5;
         System.out.println("from 1" + n + "is" + sumRec(n));
