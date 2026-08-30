@@ -9,8 +9,27 @@ public class findMin {
         return max; // return max
     }
 
+    public static int sumAllEvenNumber(int[] array) {
+        int sum = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            if(isEvenNumber(array[i])) {
+                sum += array[i];
+            }
+        }
+
+        return sum;
+    }
+
+    public static boolean isEvenNumber(int number) {
+        if (number % 2 == 0) return true;
+
+        return false;
+    }
+
     public static void main(String[] args) {
         int[] array = {3, 5, 1, 2, 6, 7, 1, 8, 9}; //day so cua minh da duoc tao ra
         System.out.println(findMax(array));// in ra so lon nhat
-    }
+        System.out.println(sumAllEvenNumber(array));
+    }   
 }
