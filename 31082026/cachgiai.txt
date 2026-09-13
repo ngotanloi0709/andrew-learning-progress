@@ -1,0 +1,45 @@
+a = [1, 1, 5, 7, 8, 9, 10, 13, 34] mang dau
+sai isFibonacci(int n)
+
+1 isFibonacci
+1 isFibonacci
+5 isFibonacci
+7 isNotFibonacci
+8 isFibonacci
+9 isNotFibonacci
+10 isNotFibonacci
+13 isFibonacci
+34 isFibonacci
+
+nhung so fibonacci trong a la 1, 1, 5, 8, 13, 34
+tong la 1 + 1 + 5+ 8 + 13 + 34 = 62  
+
+cach tinh so fibonacci
+
+5 . n^2  + 4
+5 . n^2  - 4
+
+5 . 1^2 + 4 
+5 . 1 + 4 = 9
+
+5 . 2^2 + 4 
+5 . 4 + 4 
+20 + 4 = 24
+
+
+5 . 1^2 - 4
+5 . 1 - 4 = 1
+
+5 . 2^2 - 4
+5 . 4 - 4 = 16
+
+lay 1 so va binh phuong (nhan chinh no)
+nhan so do bang 5
+cong 4 hoac tru 4
+
+vi dau
+
+2 . 2 = 4
+4 . 5 = 20
+20 - 4 = 16
+20 + 4 = 24
